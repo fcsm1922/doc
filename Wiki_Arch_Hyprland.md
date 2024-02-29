@@ -80,3 +80,13 @@ systemctl enable dhcpcd ->>>>>>>>>>>>>>>>> вместо networkmanager
 
     ```
     yay -S  visual-studio-code-bin
+
+
+
+    Подключение multilib
+
+sudo micro /etc/pacman.conf
+
+необходимо раскоментировать вот это:
+[multilib]
+Include = /etc/pacman.d/mirrorlist
