@@ -18,7 +18,7 @@
 
 Здесь будет содержаться как установить Arch linux с минимальным колличеством пакетов на wayland
   ```
-  sudo pacman -S  base linux-firmware git htop btop waybar wlroots hyprland qt5-wayland qt6-wayland foot allacritty dunst rofi mesa vulkan-intel lib32-mesa ntfs-3g xdg-desktop-portal-wlr xdg-desktop-portal-hyprland neovim  hyprpaper wl-clipboard  python firefox udisks2 tlp ranger  translate-shell networkmanager zsh
+  sudo pacman -S  base linux-firmware git htop btop waybar wlroots hyprland qt5-wayland qt6-wayland foot allacritty dunst rofi mesa vulkan-intel lib32-mesa ntfs-3g xdg-desktop-portal-wlr xdg-desktop-portal-hyprland neovim  hyprpaper wl-clipboard  python firefox udisks2 tlp ranger  translate-shell networkmanager zsh lxqt-policykit 
   ```
 
 
