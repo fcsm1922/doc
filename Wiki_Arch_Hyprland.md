@@ -18,21 +18,28 @@
 
 Здесь будет содержаться как установить Arch linux с минимальным колличеством пакетов на wayland
   ```
-  sudo pacman -S  base linux-firmware git htop btop waybar wlroots hyprland qt5-wayland qt6-wayland foot allacritty dunst rofi mesa vulkan-intel lib32-mesa ntfs-3g xdg-desktop-portal-wlr xdg-desktop-portal-hyprland neovim  hyprpaper wl-clipboard  python firefox udisks2 tlp ranger  translate-shell networkmanager zsh lxqt-policykit 
+  sudo pacman -S linux-firmware git htop btop waybar wlroots hyprland qt5-wayland qt6-wayland foot alacritty dunst rofi ntfs-3g xdg-desktop-portal-wlr xdg-desktop-portal-hyprland neovim  hyprpaper wl-clipboard  firefox udisks2 tlp ranger translate-shell networkmanager zsh lxqt-policykit sof-firmware pipewire-pulse wireplumber
   ```
+ 
+ `reflector` - программа для отсортировки зеркал для скачивания пакетов
 
 
- dhcpcd 
-systemctl enable dhcpcd ->>>>>>>>>>>>>>>>> вместо networkmanager
+`mesa vulkan-intel intel-ucode`   - дрова для уставновки на реальное железо
+`vulkan-virtio` - для виртуальных машин
+`vulkan-headers`
+`mesa-utils`
+`lib32-mesa`
 
  <a id="#второй-элемен"></a>
 
 ## Установка AUR
 
   ```
-  pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay-bin.git && cd yay-bin && makepkg -si
+  pacman -S git clone https://aur.archlinux.org/yay-bin.git && cd yay-bin && makepkg -si
   ```
  
+ `git clone https://github.com/fcsm1922/doc` - мой репозиторий
+
 
 
  <a id="третий-элемент"></a>

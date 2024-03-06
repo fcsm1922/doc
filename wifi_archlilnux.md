@@ -7,3 +7,15 @@
 `station **wlan0** connect *name_wifi_*` - подключаемся к беспроводной сети
 
 `вводим пароль`
+
+`exit`
+
+проверяем пинг ping ya.ru
+
+
+```
+pacman -Sy archlinux-keyring archinstall
+```
+
+`archinstall`
+
